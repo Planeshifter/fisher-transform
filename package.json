@@ -1,0 +1,29 @@
+{
+  "name": "fisher-transform",
+  "version": "0.1.0",
+  "description": "inference for correlation rho via fisher transformation",
+  "main": "lib/main.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Planeshifter/fisher-transform.git"
+  },
+  "keywords": [
+    "statistics",
+    "correlation"
+  ],
+  "author": "Philipp Burckhardt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Planeshifter/fisher-transform/issues"
+  },
+  "homepage": "https://github.com/Planeshifter/fisher-transform",
+  "devDependencies": {
+    "mocha": "^2.1.0"
+  }
+}
