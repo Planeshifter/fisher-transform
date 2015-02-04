@@ -17,7 +17,7 @@ var fisher = require('fisher-transform');
 
 `fisher` is a single function:
 
-## `fisher(`rho, n, [alpha, alternative, rho_0]`)
+## `fisher(rho, n, [alpha, alternative, rho_0]`)
 
 The function parameters are:
 - rho: the Pearon correlation for which inference should be carried out
