@@ -1,5 +1,6 @@
-[![NPM version](https://badge.fury.io/js/fisher-transform.svg)](http://badge.fury.io/js/fisher-transform)
-[![Build Status](https://travis-ci.org/Planeshifter/fisher-transform.svg)](https://travis-ci.org/Planeshifter/fisher-transform)
+[![NPM version][npm-image]][npm-url]
+[![Build Status][travis-image]][travis-url]
+[![Dependencies][dependencies-image]][dependencies-url]
 
 # Inference for Pearson correlation
 
@@ -20,7 +21,7 @@ var fisher = require('fisher-transform');
 ## `fisherTest(rho, n, [alpha, alternative, rho_0]`)
 
 The function parameters are:
-- rho: the Pearon correlation for which inference should be carried out
+- rho: the Pearson correlation for which inference should be carried out
 - n: the number of sample observations
 - alpha: the significance level of the test, default value is 0.05
 - alternative: default value "two-sided", for one-sided tests options "greater" and "less" exist
@@ -49,3 +50,21 @@ Applies the inverse Fisher transformation to z in order to recover r, where r = 
 
 ## `zScore(r, r_0, n)`
 Returns the Fisher z-score for Pearson correlation r under the null hypothesis that r = r_0. Approximately, the z-score follows a standard normal distribution.
+
+## Unit Tests
+
+Run tests via the command `npm test`
+
+---
+## License
+
+[MIT license](http://opensource.org/licenses/MIT).
+
+[npm-image]: https://badge.fury.io/js/fisher-transform.svg
+[npm-url]: http://badge.fury.io/js/fisher-transform
+
+[travis-image]: https://travis-ci.org/Planeshifter/fisher-transform.svg
+[travis-url]: https://travis-ci.org/Planeshifter/fisher-transform
+
+[dependencies-image]: http://img.shields.io/david/Planeshifter/fisher-transform.svg
+[dependencies-url]: https://david-dm.org/Planeshifter/fisher-transform
