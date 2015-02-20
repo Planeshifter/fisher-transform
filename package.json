@@ -1,6 +1,6 @@
 {
   "name": "fisher-transform",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "inference for correlation rho via fisher transformation",
   "main": "lib/main.js",
   "directories": {
