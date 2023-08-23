@@ -1,7 +1,5 @@
 [![NPM version][npm-image]][npm-url]
-[![Build Status][travis-image]][travis-url]
 [![Coverage Status][coveralls-image]][coveralls-url]
-[![Dependencies][dependencies-image]][dependencies-url]
 
 # Inference for Pearson correlation
 
@@ -64,11 +62,5 @@ Run tests via the command `npm test`
 [npm-image]: https://badge.fury.io/js/fisher-transform.svg
 [npm-url]: http://badge.fury.io/js/fisher-transform
 
-[travis-image]: https://travis-ci.org/Planeshifter/fisher-transform.svg
-[travis-url]: https://travis-ci.org/Planeshifter/fisher-transform
-
 [coveralls-image]: https://img.shields.io/coveralls/Planeshifter/fisher-transform/master.svg
 [coveralls-url]: https://coveralls.io/r/Planeshifter/fisher-transform?branch=master
-
-[dependencies-image]: http://img.shields.io/david/Planeshifter/fisher-transform.svg
-[dependencies-url]: https://david-dm.org/Planeshifter/fisher-transform
